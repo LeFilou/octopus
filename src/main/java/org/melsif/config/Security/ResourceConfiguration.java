@@ -46,6 +46,7 @@ public class ResourceConfiguration extends ResourceServerConfigurerAdapter {
                 .antMatchers(HttpMethod.OPTIONS).permitAll()
                 .antMatchers("/api/hello").access("hasAnyRole('USER')")
                 .antMatchers("/api/admin").access("hasRole('ADMIN')")
+                .antMatchers("/api/user").access("hasAnyRole('USER')")
                 .antMatchers("/api/**").authenticated();
     }
 
