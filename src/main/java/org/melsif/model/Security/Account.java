@@ -27,12 +27,6 @@ public class Account implements UserDetails {
 
     private String password;
 
-    private String firstName;
-
-    private String lastName;
-
-    private String email;
-
     @Enumerated(EnumType.STRING)
     @ElementCollection(fetch = FetchType.EAGER)
     private List<Role> roles;
