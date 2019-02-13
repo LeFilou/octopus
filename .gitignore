@@ -15,16 +15,8 @@
 # Target #
 target/
 
-# User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
-
 # Sensitive or high-churn files:
 .idea/
-
-## File-based project format:
-*.iws
 
 ## Plugin-specific files:
 
