@@ -2,7 +2,8 @@ spring:
   application:
     name: core
   profiles:
-    active: default
+    active: dev
   cloud:
     config:
+      token: myroot
       uri: http://localhost:8888

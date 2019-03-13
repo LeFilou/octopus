@@ -22,7 +22,7 @@
 
   <modules>
     <module>core</module>
-    <module>configuration</module>
+    <module>configuration-server</module>
   </modules>
 
   <repositories>

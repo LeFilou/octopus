@@ -8,7 +8,7 @@
   </parent>
 
   <groupId>org.melsif</groupId>
-  <artifactId>configuration</artifactId>
+  <artifactId>configuration-server</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Configuration server</name>

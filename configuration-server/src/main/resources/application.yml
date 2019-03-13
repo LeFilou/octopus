@@ -1,0 +1,17 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configurationserver
+  profiles:
+    active: git, vault
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LeFilou/config-repo
+          search-paths: core
+        vault:
+          port: 8200
+          host: 127.0.0.1
+          kv-version: 2
