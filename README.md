@@ -1,5 +1,5 @@
 # Octopus
-> A spring boot app
+> Example of a spring boot app that uses vault and git as backend for configuration files  
 
 ## Getting started
 
